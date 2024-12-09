@@ -1,0 +1,47 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 30px;
+  margin: 0;
+  background-color: #f9f9f9;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.welcome {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.clock-container {
+  margin-bottom: 20px;
+}
+
+.slider-container {
+  width: 100vw; /* Full viewport width */
+  height: calc(100vh - 150px); /* Adjust for navbar and clock */
+  overflow: hidden; /* Hide overflowing images */
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.slider {
+  display: flex;
+  width: 1cm;
+  height: 100%;
+  transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+  padding: 0;
+  margin: 0;
+}
+
+.slider img {
+  flex-shrink: 0;
+  width: 8cm; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  object-fit: cover; /* Ensure images maintain aspect ratio while covering area */
+}

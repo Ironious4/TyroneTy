@@ -1,0 +1,47 @@
+/* navbar.css */
+
+/* Navbar styles */
+nav {
+  position: fixed; /* Keep navbar fixed at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px; /* Set a consistent height */
+  background-color: #0077ff; /* Blue background */
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Space between title and links */
+  align-items: center; /* Center content vertically */
+  padding: 0 20px; /* Add padding on the sides */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  z-index: 1000; /* Ensure it appears above all other content */
+}
+
+/* Title styles */
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navbar link styles */
+.navbar {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 10px; /* Add spacing between links */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar:hover {
+  color: #ffdd00; /* Change color on hover */
+}
+
+/* Adjust body to account for navbar height */
+body {
+  margin: 0;
+  padding-top: 80px; /* Same as the navbar height */
+  box-sizing: border-box; /* Ensure consistent sizing */
+}
