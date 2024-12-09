@@ -18,7 +18,7 @@ function About() {
             </ol>
 
         </div>
-        <img src="./public/mall.jpg" alt="mall" className="image"></img>
+        <img src="/mall.jpg" alt="mall" className="image"></img>
         </div>
     )
 }
